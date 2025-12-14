@@ -1,6 +1,3 @@
-from pycparser.c_ast import Break
-
-
 def check_cell(row:int,col:int,matrix) -> bool:
     if matrix[row][col] != '@': return False
     counter = 0
