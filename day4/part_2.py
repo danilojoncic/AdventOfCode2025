@@ -43,7 +43,6 @@ def solve()-> int:
     return total_removed
 
 
-
 if __name__ == '__main__':
     result = solve()
     print(result)
