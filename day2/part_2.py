@@ -23,7 +23,7 @@ def isValid(id:int) -> bool:
 
 
 def solve() -> int:
-    sum = 0;
+    sum = 0
     with open('path/to/input.txt', 'r') as file:
         line = file.readline().strip()
         ranges = line.split(',')
