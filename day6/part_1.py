@@ -1,6 +1,4 @@
 FILE_PATH = 'path/to/input.txt'
-
-
 def solve() -> int:
     result = 0
     numbers = []
